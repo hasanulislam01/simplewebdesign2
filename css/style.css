@@ -1,0 +1,288 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #ffff;
+}
+
+.header-area {
+    background-color: rgb(221, 221, 221);
+   
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    cursor: pointer;
+    margin: 0;
+    padding: 8px 0;
+
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li a:hover {
+    color: #ff5100;
+}
+
+.btn h3 {
+    margin: 0;
+    padding: 15px;
+    display: inline;
+}
+
+.btn h3:hover {
+    cursor: pointer;
+    color: #ff5100;
+}
+
+.slider-area {
+    background: url(../images/post.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 900px; */
+    height: 875px;
+
+}
+
+.sliderWrapper {
+    /* margin: 12px; */
+    padding: 50px 0;
+    /* display: flex; */
+    width: 60%;
+
+}
+
+.sliderWrapper h1 {
+    font-size: 60px;
+    margin: 100px 0 50px 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgb(250, 241, 224);
+
+}
+
+.sliderWrapper p {
+    font-size: 30px;
+    padding: 15px 0;
+    color: white;
+}
+
+.sliderWrapper button {
+    font-size: 20px;
+    padding: 8px 25px;
+    background-color: #ffffff;
+    color: #252525;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.sliderWrapper button:hover {
+    background-color: #252525;
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.slider-img{
+    position: absolute;
+    /* position: ; */
+    /* overflow-x: hidden; */
+    top:213px;
+    left:1200px;
+}
+
+.slider-img img {
+    width: 600px;
+    height: auto;
+
+}
+
+/* ............Blog........... */
+
+.blog-area {
+    background-color: #b9b9b9;
+    padding: 70px 0;
+
+
+}
+.container h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.blog-wrapper {
+    display: flex;
+}
+
+.single-blog img {
+    width: 360px;
+    height: 300px;
+}
+.single-blog h2{
+    font-weight: 600;
+}
+
+.single-blog {
+    width: 400px;
+    margin: 15px;
+    background-color: #aaaaaa;
+    padding: 8px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+
+.single-blog:hover {
+    box-shadow: 5px 5px #a3a3a3;
+    cursor: pointer;
+}
+
+.service-area {
+    background-color: #b9b9b9;
+    padding: 70px 0;
+    margin-top: 8px;
+
+}
+
+.service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-service a img {
+    display: inline-block;
+    width: 380px;
+    height: 300px;
+}
+
+.single-service h2 {
+    color: #2b2b2b;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+}
+
+.single-service {
+    padding-bottom: 50px;
+    padding: 8px;
+    margin: 14px;
+    background-color: #aaaaaa;
+    border-radius: 5px;
+
+}
+
+.single-service a {
+    text-decoration: none;
+}
+
+.single-service:hover {
+    box-shadow: 7px 7px #a3a3a3;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* ------Nivo Slider------- */
+
+.slider{
+    width: 1600px;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+}
+
+.slider h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    
+}
+
+.slider img{
+    width: 1600px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+.contact-area{
+    display: flex;
+    background-color: #241a1a;
+    color: #ffff;
+    margin-top: 50px;
+}
+
+.con-col{
+    flex-basis: 24%;
+    margin: 50px;
+    padding: 0;
+}
+
+.con-col ul li{
+    list-style: none;
+
+}
+
+.con-col ul{
+    padding: 0;
+
+}
+
+.con-col h2{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-area {
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+
+
+}
+
+.footer-wrapper {
+    margin-right: 25px;
+    padding: 8px;
+    color: #ffffff;
+}
